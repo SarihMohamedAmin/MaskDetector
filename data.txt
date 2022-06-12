@@ -1,0 +1,27 @@
+pip3 install pyQt6
+python3
+import pyQt6
+
+
+constructeur
+
+
+mkdir GUI_pyqt
+cd GUI_pyqt/
+geany userprofile.py &
+
+
+inside userprofile.py
+    import sys
+    from PyQt6.QtWidgets import ( QApplication, QWidget, QLabel)
+    from PyQt6.QtGui import QFont, QPixmap
+
+create my window application
+
+    class MainWindow(QWidget):
+        //initialization
+         def __init__(self):
+            super().__init__()
+            self.initializzeUI()
+            
+
